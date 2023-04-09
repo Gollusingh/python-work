@@ -1,0 +1,20 @@
+s={}
+for i in range(5):
+    name=input("Enter name:")
+    lang=input("Enter fav. language:")
+    s.update({name:lang})
+print(s)
+
+
+Output-
+Enter name:joan
+Enter fav. language:hindi
+Enter name:priya
+Enter fav. language:english
+Enter name:rahul
+Enter fav. language:spanish
+Enter name:silky
+Enter fav. language:french
+Enter name:rosy
+Enter fav. language:german
+{'joan': 'hindi', 'priya': 'english', 'rahul': 'spanish', 'silky': 'french', 'rosy': 'german'}
