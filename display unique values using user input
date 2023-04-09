@@ -1,0 +1,24 @@
+a=input("Enter the no.")
+b=input("Enter the no.")
+c=input("Enter the no.")
+d=input("Enter the no.")
+e=input("Enter the no.")
+f=input("Enter the no.")
+g=input("Enter the no.")
+h=input("Enter the no.")
+ 
+input_values=a,b,c,d,e,f,g,h
+unique_values=list(set(input_values))
+print("unique values of the user input:\n",unique_values)
+
+output-
+Enter the no.1
+Enter the no.2
+Enter the no.3
+Enter the no.1
+Enter the no.2
+Enter the no.3
+Enter the no.4
+Enter the no.55
+unique values of the input:
+ ['3', '2', '55', '4', '1']
