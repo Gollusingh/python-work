@@ -1,0 +1,7 @@
+numbers = [1, 2, 2, 3, 3, 4, 5]
+unique_numbers = list(set(numbers))
+print("The unique elements of the input list using set():\n", unique_numbers)
+
+output -
+The unique elements of the input list using set():
+ [1, 2, 3, 4, 5]
